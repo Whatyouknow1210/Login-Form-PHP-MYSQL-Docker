@@ -1,5 +1,5 @@
 # Login-Form-PHP-MYSQL-Docker
-This is a login form made using PHP, which stores the data to mysql and this application runs on docker
+This is a login form made using PHP, which stores the data to mysql and this application containerised on docker
 Steps to run this project : 
 1) Firstly store the files in a directory then locate this directory using a terminal ( VS Code would be good ), then run the command "docker-compose up -d" to run containers in detached mode.
 2) Next step is to go to web browser and open "localhost://8081" , where you will see phpmyadmin image, then put user--> "USER" and password --> "PASS", then you will be logged in to the phpmyadmin, where you can run the following query to create a table "users" : CREATE TABLE `users` (
